@@ -83,7 +83,6 @@ function CheckinBooking() {
             onChange={() => {
               setAddBreakFast((add) => !add);
               setConfirmPaid(false);
-              console.log(settings);
             }}
           >
             Want to add breakfast for {formatCurrency(optionalBreakfastPrice)}?
